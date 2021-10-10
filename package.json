@@ -1,0 +1,28 @@
+{
+  "name": "Bookmark-backend",
+  "version": "1.0.0",
+  "description": "The backend for the bookmark extension",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Athul-das7/Bookmark-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Athul-das7/Bookmark-backend/issues"
+  },
+  "homepage": "https://github.com/Athul-das7/Bookmark-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  }
+}
